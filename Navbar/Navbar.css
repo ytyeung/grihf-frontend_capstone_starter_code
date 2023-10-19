@@ -119,4 +119,11 @@ a:hover{
     color:rgba(35,85,202, 1);
 }
 
+.nav_links{
+    list-style: none;
+    margin:0;
+    padding:0;
+    display: flex;
+}
+
 
