@@ -95,6 +95,50 @@ a:hover{
 
 }
 
+@media (max-width: 1024px) {
+    .e1_3 { 
+        height: 50px;
+    }
+    .nav_links {
+        display: flex;
+        align-items: center;
+        right: 200px;
+        top: 10px;
+        height:25px;
+    }
+
+    .link{
+        margin-left: 8px;
+    }
+    .nav_links a:hover{
+        color:rgba(170,218.250 1);
+    }
+    .e40_620 { 
+        transform: scale(0.6,0.6);
+        right: 80px;
+        top: 5px;
+        position: absolute;
+    }
+    .e26_461 {
+        right: 0px;
+        top:5px;
+        transform: scale(0.6,0.6);
+    }
+
+    .doctor_svg{
+        transform: scale(0.6,0.6);
+        left: 110px;
+        top: 0px;
+        position:absolute;
+    }
+    .e1_16 {
+        transform: scale(0.6,0.6);
+        left: -30px;
+        top: 5px;
+        position: absolute;
+    }
+}
+
 @media (max-width: 768px) {
     .nav_links {
         display: flex;
@@ -136,6 +180,5 @@ a:hover{
         top: 5px;
         position: absolute;
     }
-}
 
 
