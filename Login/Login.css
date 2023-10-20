@@ -125,7 +125,7 @@
     color: lightgray;
 }
 
-.alreadyamember{
+.areyouanewmember{
     color: #808080;
     font-size: 16px; 
     font-family: Inter; 
@@ -150,14 +150,14 @@ a:hover{
     color:rgba(35,85,202, 1);
 }
 
-.AlreadyAMemberLogin{
+.AreYouANewMemberSignUpHere{
     width: 376px;
     margin-top: 10px;
     margin-bottom: 10px;
     text-align: center;
 }
 
-.SignUpText{
+.LoginText{
     text-align: center; 
     color: black; 
     font-size: 36px; 
@@ -169,10 +169,20 @@ a:hover{
     margin-bottom: 10px;
 }
 
-.SignUpPane{
+.LoginPane{
     width: 480px;
     height: 640px;
     top:20px;
     left:20px;
     position: absolute;
+}
+.ForgotPassword{
+    text-align: center; 
+    color: #808080; 
+    font-size: 16px; 
+    font-family: Inter; 
+    font-weight: 700; 
+    word-wrap: break-word;
+    width: 400px; 
+    margin-top:40px;
 }
